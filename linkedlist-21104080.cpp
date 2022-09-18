@@ -59,11 +59,11 @@ void display(node*head){
 }
 int main(){
     node*head=NULL;
-    insertattail(head,"Father",42);
-    insertattail(head,"Mother",41);
-    insertattail(head,"Brother",20);
-    insertattail(head,"Sister",15);
+    insertattail(head,"Raman",42);
+    insertattail(head,"Mona",41);
+    insertattail(head,"Manan",20);
+    insertattail(head,"Simran",15);
     display(head);
-    insertattail(head,"Grandmother",60);
+    insertattail(head,"kamal",60);
     display(head);
     }
